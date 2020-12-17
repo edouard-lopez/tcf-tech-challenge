@@ -3,6 +3,7 @@
 install
 
     cd frontend; yarn install
+    cd server; yarn install
 
 ## TCF Tech Challenge
 
