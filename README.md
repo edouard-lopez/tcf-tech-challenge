@@ -34,7 +34,7 @@ The user can access the Answer form by selecting a specific question.
 
 The answer form allow our user to add successive blocks of
 text that will be used by the chatbot to produce an answer
-when a specific question is aked.
+when a specific question is asked.
 
 In this design, the user can:
 
