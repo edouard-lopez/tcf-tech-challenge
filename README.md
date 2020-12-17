@@ -1,9 +1,14 @@
+# TCF
 
-# TCF Tech Challenge
+install
+
+    cd frontend; yarn install
+
+## TCF Tech Challenge
 
 ![The Chatbot Factory logo](./img/tcf-logo.png)
 
-## Context
+### Context
 
 Our product owner Ulysse has been working hard to understand
 what our clients, users of our chatbot automation platform, do need in priority.
@@ -52,7 +57,7 @@ The preview of the actual webchat window looks like this:
 
 ![Webchat preview](./img/webchat-preview.png)
 
-## Guidelines
+### Guidelines
 
 * You must create a tiny fullstack (server and client)
 TypeScript application that implements the specified feature.

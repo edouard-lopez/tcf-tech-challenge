@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@nestjs/cli": "^7.5.4",
     "husky": "~4.2.5",
     "lint-staged": "~10.2.9",
     "markdownlint": "~0.20.4",
