@@ -9,8 +9,6 @@ const Categories = () => {
 
   const getCategories = async () => {
     const categories = await get<Category[]>(`${config.apiUrl}/categories/`);
-    console.log(categories);
-
     setCategories(categories);
   };
 
