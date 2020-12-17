@@ -2,16 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import config from "./config";
 import { get } from "./Fetchers";
-
-export interface Question {
-  id: number;
-  title: string;
-}
-export interface Category {
-  id: number;
-  name: string;
-  questions: Array<Question>;
-}
+import { Category } from "./types/types";
 
 const Categories = () => {
   const [categories, setCategories] = useState<Category[]>([]);
