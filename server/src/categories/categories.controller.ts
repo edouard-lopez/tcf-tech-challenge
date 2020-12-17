@@ -9,7 +9,7 @@ export class CategoriesController {
     const contactNFacturation: Category = {
       id: 1,
       name: 'Contact & facturation',
-      questions: questionsList
+      questions: questionsList,
     };
     return [contactNFacturation];
   }
