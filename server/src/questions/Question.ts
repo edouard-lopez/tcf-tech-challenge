@@ -1,5 +1,3 @@
-import { Category } from "src/categories/Category";
-
 export interface Question {
   id: number,
   title: string,

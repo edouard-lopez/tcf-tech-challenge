@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { questionsList } from 'src/questions/Question';
+import { questionsList } from '../questions/Question';
 import { Category } from './Category';
 
 @Controller('categories')
