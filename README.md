@@ -1,9 +1,16 @@
 # TCF
 
-install
+Install:
 
-    cd frontend; yarn install
-    cd server; yarn install
+    make install  # server+frontend
+
+Test:
+
+    make tests  # server+frontend
+
+Start:
+
+    make start  # server+frontend
 
 ## TCF Tech Challenge
 
